@@ -56,7 +56,6 @@ public class MP7 {
 		frame.getContentPane().setLayout(null);
 		
 		JButton button_1 = new JButton("1");
-		button_1.setBackground(new Color(240, 240, 240));
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				clicked = 0;
